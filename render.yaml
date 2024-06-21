@@ -17,7 +17,7 @@ services:
         fromDatabase:
           name: helloworld
           property: connectionString
-      - key: RAILS_MASTER_KEY
+      - key: da998b4a37b7d0a5d897a4a39916b019
         sync: false
       - key: WEB_CONCURRENCY
         value: 2 # sensible default
